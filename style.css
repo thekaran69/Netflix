@@ -130,3 +130,47 @@ nav button{
     color: white;
     margin-left: 5px;
 }
+
+
+.first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    max-width: 70vw;
+    color: white;
+}
+
+.secImg{
+    position: relative;
+}
+
+.secImg img{
+    position: relative;
+    z-index: 10;
+    width: 555px;
+}
+
+.secImg video{
+    position: absolute;
+    top: 103px;
+    right: 0;
+    width: 480px;
+}
+
+section.first>div {
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+}
+
+section.first>div :nth-child(1) {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+
+section.first>div :nth-child(2) {
+    font-size: 24px;
+
+}
