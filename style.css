@@ -178,18 +178,66 @@ section.first>div :nth-child(2) {
 .faq{
     background-color: black;
     color: white;
+    padding: 34px;
 }
 .faq h2{
     text-align: center;
-    padding: 24px;
+    font-size: 48px;
 
 }
 
 .faqbox{
+    color: white;
+    font-size: 24px;
     display: flex;
-    background-color: gray;
+    background-color: #2d2d2d;
     justify-content: space-between;
     padding: 24px;
     max-width: 60vw;
     margin: 10px auto;
+    cursor: pointer;
+    transition: all 0.7s ease-out;
+}
+
+.faqbox:hover{
+    background-color: #414141;
+}
+
+.email{
+    text-align: center;
+    margin-top: 40px;
+}
+.email-buttons{
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+
+.email-buttons input{
+    width: 20vw;
+    padding: 7px;
+    margin-right: 10px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 3px;
+
+}
+
+.email-buttons input::placeholder{
+    color: white;
+    font-size: 16px;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+}
+
+.footer-item{
+    display: flex;
+    flex-direction: column;
 }
