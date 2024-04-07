@@ -32,14 +32,15 @@ nav{
     display: flex;
     align-items: center;
     max-width: 60vw;
-    height: 60px;
+    height: 100px;
     margin: auto;
     justify-content: space-between;
 }
 
 nav img{
+    margin-top: 20px;
     color: red;
-    width: 130px;
+    width: 135px;
     z-index: 10;
     position: relative;
 }
@@ -51,7 +52,7 @@ nav button{
 }
 
 .hero{
-    height: calc(100% - 60px);
+    height: calc(100% - 100px);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -228,16 +229,40 @@ section.first>div :nth-child(2) {
     color: white;
     font-size: 16px;
 }
-
 footer{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
     color: white;
     max-width: 60vw;
     margin: auto;
+    padding: 14px;
+    margin-bottom: 50px;
 }
+footer .question{
+    padding: 24px 0;
+    
+}
+
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    
+    
+}
+.footer a{
+    color: white;
+    font-size: 14px;
+}
+
+
 
 .footer-item{
     display: flex;
     flex-direction: column;
+    gap: 20px;
+}
+
+.india{
+    font-size: 20px;
+    margin-top: 20px;
 }
